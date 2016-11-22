@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Tue, 22 Nov 2016 23:36:34 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.20
+X-Drupal-Cache: HIT
+Etag: "1479855724-0"
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge,chrome=1
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <http://west.uni-koblenz.de/en/studying/courses/ws1617/introduction-to-web-science>; rel="canonical",<http://west.uni-koblenz.de/en/node/4959>; rel="shortlink"
+Cache-Control: public, max-age=0
+Last-Modified: Tue, 22 Nov 2016 23:02:04 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=utf-8
