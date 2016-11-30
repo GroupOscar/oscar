@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Nov 2016 12:39:02 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.20
+X-Drupal-Cache: HIT
+Etag: "1480042744-0"
+Content-Language: de
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge,chrome=1
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <http://west.uni-koblenz.de/sites/default/files/default_images/logo_mws_b.png>; rel="image_src",<http://west.uni-koblenz.de/de/studium>; rel="canonical",<http://west.uni-koblenz.de/de/node/141>; rel="shortlink"
+Cache-Control: public, max-age=0
+Last-Modified: Fri, 25 Nov 2016 02:59:04 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=utf-8

@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Abusing the HTTP protocol - Example</title>
+</head>
+
+<body>
+    <h1>Display data from the Server</h1> The following line changes on the servers command line input:
+    <br>
+    <span id="response" style="color:red">
+ This will be replaced by messages from the server
+ </span>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    function update() {
+      // Here the xmlHttp object is created
+        if (window.XMLHttpRequest) {
+            var xmlHttp = new XMLHttpRequest();
+        } else { // code for IE6, IE5
+            var xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+      // To catch the event if it's connected and a convient response was given back, we take the response and insert it in the element with id="response"
+        xmlHttp.onreadystatechange = function() {
+            if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+                document.getElementById("response").innerHTML = xmlHttp.responseText;
+            }
+        }
+      // We open the connection here by sending a GET http request and when parsed in the server we check for the word update to know that it's a request for updating the page
+        xmlHttp.open("GET", 'update', true);
+        xmlHttp.send();
+        console.log(xmlHttp);
+
+    }
+    //call function update very 5 seconds to trigger an httpr request and ask the server for updates
+    window.setInterval(update, 5000);
+</script>

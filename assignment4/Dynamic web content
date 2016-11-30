@@ -1,0 +1,12 @@
+1. Long polling an "abusive" use of HTTP
+
+2. What is long polling?
+In client server http. You try to optimise the server, you try to give a response asap. In long polling, you say there's a url and the server will take its time in responding, not immedietly he can wait untill there is something interesting to send (TWITTER) or until he wishes to talk back. This is good for the server because it will get a say in the connection not like before. Before it was just something that responds but now it can say wait till i get back to you. It's also good for the end user because i won't need to refresh to get new information.
+
+3. ECMA script vs Javascript
+Is a more standarised scripting language that solves the problem of javascript incompatability between different browsers. However, people tended to stick to javascript. 
+4. What is EMCA script
+
+5. How to build a web crawler?
+recursive approach runs out of memory
+
