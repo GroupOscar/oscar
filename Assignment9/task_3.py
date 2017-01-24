@@ -54,6 +54,6 @@ def diameter(graph):
 
 #call the function diameter
 
-    
+
 
 
